@@ -128,7 +128,7 @@ int roundrobin_arrange_home_and_away(vector< vector<STeamPair> >& aSchedule)
 	return 0;
 }
 
-int roundrobin_swap_home_and_away(vector< vector<STeamPair> >& aSchedule)
+void roundrobin_swap_home_and_away(vector< vector<STeamPair> >& aSchedule)
 {
 	for(unsigned i=0; i<aSchedule.size(); i++)
 	{

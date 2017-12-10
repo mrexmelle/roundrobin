@@ -16,6 +16,6 @@ extern int roundrobin_schedule(vector<string> aTeamNames, vector< vector<STeamPa
 static int roundrobin_shift_right(string * aTeamArray, unsigned aSize);
 static int roundrobin_assign_weekly_schedule(string * aTeamArray, unsigned aSize, vector<STeamPair>& aResult);
 extern int roundrobin_arrange_home_and_away(vector< vector<STeamPair> >& aSchedule);
-extern int roundrobin_swap_home_and_away(vector< vector<STeamPair> >& aSchedule);
+extern void roundrobin_swap_home_and_away(vector< vector<STeamPair> >& aSchedule);
 
 #endif // __ROUNDROBIN_H__
